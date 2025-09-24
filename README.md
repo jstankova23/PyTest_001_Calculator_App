@@ -54,10 +54,12 @@ pytest tests/test_calculator.py::test_add
 ```
 calculator/                  # root directory
 │
-├─ README.md                 # dokumentace projektu
+├─ README.md                 # dokumentace projektu v ČJ
+├─ README_EN.md              # dokumentace projektu v AJ
 ├─ pytest.ini                # definice pytest marks, testpaths = tests
 ├─ pyproject.toml            # build system (setuptools)
 ├─ setup.cfg                 # konfigurace balíčku
+├─ .gitignore                # filtr verzování
 │
 ├─ src/
 │   └─ calculator/
